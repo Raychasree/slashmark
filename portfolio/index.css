@@ -1,0 +1,280 @@
+body{
+    background-attachment: fixed;
+}
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+
+/* home*/
+
+.flex-container {
+    width:100vw;
+    min-height:100vh;
+    background-image:url("1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .navbar{
+    width:1200px;
+    height:75px;
+    margin:auto;
+    margin-right:-10rem;
+}
+.icons{
+    width: 200px;
+    float: right;
+    height: 70px;
+}
+.menu{
+    width: 400px;
+    float: 70px;
+    height: 70px;
+    margin-left:570px;
+}
+ul{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+ul li{
+    list-style: none;
+    margin-left: 65px;
+    margin-top: 27px;
+    font-size: 16px;
+    background-attachment: fixed;
+}
+ul li a{
+    text-decoration: none;
+    font-family: red serif;
+    font-weight: bold;
+    font-size:1.3rem;
+    transition:0.4s ease-in-out;
+    color: rgb(103, 3, 103);
+}
+ul li a:hover{
+    color: rgba(218, 48, 218, 0.847);
+    zoom:135%;
+}
+h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:3.5rem;
+    float: right;
+    color:white;
+    position: relative;
+    top:100px;
+    margin-right:12rem;
+}
+h4{
+    font-size: 1.2rem;
+}
+span{
+    color:rgb(103, 3, 103);
+    font-size:1.3rem;
+}
+.para{
+    color: white;
+    font-size: 1rem;
+    float: right;
+    margin-top:20rem ;
+    margin-right:-27.5rem;
+    justify-content: space-evenly;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*  skills */
+.skills{
+    width:100vw;
+    min-height:100vh;
+    background-image:url("2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading h1{
+    font-size: 2.5rem;
+    font-family:serif;
+    font-weight: bold;
+    color:rgb(161, 155, 161);
+    padding-top: 2rem;
+    padding-left:7rem;
+}
+.line p{
+    font-size: 1.4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    padding-top: 3rem;
+    padding-left: 30rem;
+}
+.skill-list{
+    display: flex;
+    margin-left: 5rem;
+}
+.html img{
+    height: 5rem;
+    width: 5rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+.html p{
+    margin-top:1rem;
+    margin-left:6.2rem;
+    color: white;
+    font-family:serif;
+}
+.css img{
+    height: 5rem;
+    width: 5rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+.css p{
+    margin-top:1rem;
+    margin-left:6.5rem;
+    color: white;
+    font-family:serif;
+}
+.javascript img{
+    height: 5rem;
+    width: 5rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+.javascript p{
+    margin-top:1rem;
+    margin-left:5.5rem;
+    color: white;
+    font-family:serif;
+}
+.bootstrap img{
+    height: 5rem;
+    width: 5rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+.bootstrap p{
+    margin-top:1rem;
+    margin-left:5.5rem;
+    color: white;
+    font-family:serif;
+}
+.react img{
+    height: 5rem;
+    width: 5rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+.react p{
+    margin-top:1rem;
+    margin-left:6.2rem;
+    color: white;
+    font-family:serif;
+}
+.php img{
+    height: 5rem;
+    width: 5rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+.php p{
+    margin-top:1rem;
+    margin-left:6.2rem;
+    color: white;
+    font-family:serif;
+}
+.figma img{
+    height: 5rem;
+    width: 5rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+.figma p{
+    margin-top:1rem;
+    margin-left:6.2rem;
+    color: white;
+    font-family:serif;
+}
+.canva img{
+    height: 5rem;
+    width: 5rem;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+.canva p{
+    margin-top:1rem;
+    margin-left:6.2rem;
+    color: white;
+    font-family:serif;
+}
+
+/*   resume   */
+.heading1 h1{
+    font-size: 2.5rem;
+    font-family:serif;
+    font-weight: bold;
+    color:rgb(161, 155, 161);
+    padding-top: 2rem;
+    padding-left:7rem;
+}
+.line1 p{
+    font-size: 1.4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    padding-top: 3rem;
+    padding-left:35rem;
+}
+.download-resume{
+    margin-left:39rem;
+    margin-top: 3rem;
+}
+.download-resume span{
+    color: black;
+    background-color: blueviolet;
+    font-size: 1.7rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*   contact me   */
+.contact{
+    width:100vw;
+    min-height:100vh;
+    background-image:url("2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading2 h1{
+    font-size: 2.5rem;
+    font-family:serif;
+    font-weight: bold;
+    color:rgb(161, 155, 161);
+    padding-top: 2rem;
+    padding-left:7rem;
+}
+.social-media
+	{
+	margin-left:7rem;	
+    float:left;
+    margin-top:5rem;
+	}
+	.social-media a{
+		font-size:3rem;
+		padding:10px;
+        border-radius: 50%;
+	}
+	 a:hover{
+		color:white;
+	}
+    .social-media img{
+        height:3rem;
+        width:3rem;
+        border-radius:50%;
+        padding-top:0.5rem;
+        
+    }
